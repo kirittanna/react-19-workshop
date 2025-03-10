@@ -1,0 +1,24 @@
+{
+  "name": "react-19",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "basic": "node 01_react-element.mjs",
+    "ssr": "node 02_ssr.mjs",
+    "rsc-serialize": "node --conditions react-server 03_rsc-serialize.mjs",
+    "rsc-deserialize": "node --conditions react-server 04_rsc-deserialize.mjs",
+    "promises": "node --conditions react-server 05_promises.mjs",
+    "client-components": "node --conditions react-server 06_client-components.mjs",
+    "client-deserialize": "node --conditions react-server 07_client-deserialize.mjs"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-server-dom-webpack": "^19.0.0"
+  }
+}
